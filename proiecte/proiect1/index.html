@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Portofoliul meu | Responsive Website Design</title>
+    <link rel="stylesheet" href="style.css">
+
+<body>
+    <header>
+        <a href="#" class="logo">Portofoliu</a>
+        <div class="toggle"></div>
+        <ul>
+            <li><a href="">Acasa</a></li>
+            <li><a href="">Despre mine</a></li>
+            <li><a href="">Servicii</a></li>
+            <li><a href="">Munca</a></li>
+            <li><a href="">altceva</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </header>
+    <section class="banner">
+        <div class="textBx">
+            <h2>Salut, eu sunt<br><span>Narcis Deleanu.</span></h2>
+            <h3>Sunt un pasionat de It in special de Web Developer pe partea de Front End.</h3>
+            <a href="#" class="btn">Despre mine</a>
+        </div>
+    </section>
+    <section class="about">
+        <div class="heading">
+            <h2>About me</h2>
+        </div>
+        <div class="content">
+            <div class="contentBx w50">
+                <h3>Eu sunt</h3>
+                <p>sdfhnisoudfiosudnfgsudnfisudfnsiudfisudfiusdfbius
+                    dbfiusdbfiusdbgisudbidusgbsidugbsiudgisudgbisubgi
+                    sudgbisugbsiubgisuegbisbgis<br><br>dfhnisoudfiosudnfgsudnfisudfn
+                    siudfisudfiusdfbius
+                    dbfiusdbfiusdbgisudbidusgbsidugbsiudgisudgbisubgi
+                    sudgbisugbsiubgisuegbisbgis<< /p>
+            </div>
+            <div class="w50">
+                <img src="media/relax.jpg" alt="img">
+            </div>
+        </div>
+    </section>
+    <section class="services">
+        <div class="heading">
+            <h2>Our services</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <img src="icon1.png">
+                <h2>Web Desing</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="icon1.png">
+                <h2>Web Desing</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="icon1.png">
+                <h2>Web Desing</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="icon1.png">
+                <h2>Web Desing</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="icon1.png">
+                <h2>Web Desing</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="icon1.png">
+                <h2>Web Desing</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+        </div>
+    </section>
+    <script type="text/javaScript">
+            window.addEventListener('scroll', function(){
+                var header = document.querySelector('header');
+                header.classList.toggle('sticky', window.scrollY > 0);
+            });
+        </script>
+</body>
+</head>
+
+</html>

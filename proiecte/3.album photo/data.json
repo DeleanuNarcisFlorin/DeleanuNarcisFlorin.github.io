@@ -1,0 +1,50 @@
+[
+    {
+      "id":11,
+      "srcThumbnail": "media/kermit.jpeg",
+      "srcImage": "media/img.jpg", 
+      "title": "Fotografie cu lamai",
+      "shortDesc": "sdgsdgpijsdopig hspaodj goiesh oiperwht eiworgno e",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. sdgosdglidfa jhogi;hdjfiog hjrghiodfsoig hadfgo[i ahofdg l Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    },
+    {
+      "id":22,
+      "srcThumbnail": "media/kermit.jpeg",
+      "srcImage": "media/img.jpg", 
+      "title": "Fotografie cu lamai",
+      "shortDesc": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    },
+    {
+      "id":33,
+      "srcThumbnail": "media/kermit.jpeg",
+      "srcImage": "media/img.jpg", 
+      "title": "Fotografie cu lamai",
+      "shortDesc": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    },
+    {
+      "id":44,
+      "srcThumbnail": "media/kermit.jpeg",
+      "srcImage": "media/img.jpg", 
+      "title": "Fotografie cu lamai",
+      "shortDesc": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    },
+    {
+      "id":55,
+      "srcThumbnail": "media/kermit.jpeg",
+      "srcImage": "media/img.jpg", 
+      "title": "Fotografie cu lamai",
+      "shortDesc": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    },
+    {
+      "id":66,
+      "srcThumbnail": "media/kermit.jpeg",
+      "srcImage": "media/img.jpg", 
+      "title": "Fotografie cu lamai",
+      "shortDesc": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    }
+  ]
