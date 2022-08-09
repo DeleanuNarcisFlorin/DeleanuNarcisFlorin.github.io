@@ -3,6 +3,7 @@
 
 <head>
     <title>Portofoliul meu</title>
+    <meta charset="UTF-8">
     <meta name="vewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +15,7 @@
 <body>
     <header>
         <a class="logo" href="#">
-            <img src="/media/logo1.jpg" alt="logo" />
+            <img src="/media/logo1.png" alt="logo" />
         </a>
         <nav class="navigation">
             <a href="#section-1">Pasiuni</a>
@@ -26,90 +27,118 @@
     <section class="hero section-block">
         <div>
             <h1>Portofoliul meu!</h1>
-            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br>
-                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-            </p>
+            <p> Bine ai venit pe site.  </p>
         </div>
     </section>
-    <section id="section-1" class="section-block grey my-passions not-fullscreen">
+    <section id="section-1" class="section-block grey my-passions not-fullscreen img-my-passion">
         <h2>Pasiunile mele</h2>
         <div class="grid clearfix my-passions-inner-container">
             <div class="grid-box box-third">
                 <a class="logo passions">
-                    <img src="/media/laptop imageavif.avif" alt="logo" />
+                    <img src="/media/gaming.jpg" alt="logo" />
                 </a>
-                <h3>Pasiunea 1</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br>
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                <h3>Gaming &#127918</h3>
+                <p>
                 </p>
             </div>
 
             <div class="grid-box box-third">
                 <a class="logo passions">
-                    <img src="/media/laptop imageavif.avif" alt="logo" />
+                    <img src="/media/reading.jpg" alt="logo" />
                 </a>
-                <h3>Pasiunea 2</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br>
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                </p>
+                <h3>Reading&#128218</h3>
+                <!-- O idee: Sa pun buton la anumite linkuri dupa editare in css    <button onclick="window.location.href='proiecte/1.to do list'">Facebook</button> -->
+                <p></p>
             </div>
 
             <div class="grid-box box-third">
                 <a class="logo passions">
-                    <img src="/media/laptop imageavif.avif" alt="logo" />
+                    <img src="/media/coding.jpg" alt="logo" />
                 </a>
-                <h3>Pasiunea 3</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br>
-                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                </p>
+                <h3>Coding&#128187;</h3>
+                <p></p>
+            </div>
+            <div class="grid-box box-third">
+                <a class="logo passions">
+                    <img src="/media/movie.jpg" alt="logo" />
+                </a>
+                <h3>Movies&#127909</h3>
+                <p></p>
+            </div>
+            <div class="grid-box box-third">
+                <a class="logo passions">
+                    <img src="/media/gym.jpg" alt="logo" />
+                </a>
+                <h3>Gym lover&#128153&#127947;&#127995;</h3>
+                <p></p>
             </div>
         </div>
     </section>
 
-    <section id="section-2" class="section-block lilla my-portofolio not-fullscreen">
+    <section id="section-2" class="section-block lilla my-portofolio not-fullscreen projects">
         <h2>Proiecte in lucru</h2>
         <div class="grid clearfix my-portofolio-inner-container">
             <div class="grid-box box-third">
                 <h3>To do</h3>
-                <a  href="/proiecte/1.to do list/index.html" target="_blank"> <img src="/media/laptop imageavif.avif"></a>
-                <p>De pus descriere :D</p>
+                <a  href="/proiecte/1.to do list/index.html" target="_blank"> <img src="/media/todo.svg"></a>
+                <p>
+                    Aplicatie pentru ati gestiona mai usor taskurile de zi cu zi <br>
+                    Tehnologii folosite:HTML&CSS, JS
+                </p>
             </div>
             <div class="grid-box box-third">
                 <h3>Weather app</h3>
-                <a  href="/proiecte/2.weather app/index.html" target="_blank"> <img src="/media/laptop imageavif.avif"></a>
-                <p>De pus descriere :D
+                <a  href="/proiecte/2.weather app/index.html" target="_blank"> <img src="/media/weather_re_qsmd.svg"></a>
+                <p>
+                   Aplicatie in LUCRU pentru a obtine vremea in diverse orase. (Functionala) <br>
+                    Momentan doar cateva orase sunt stocate intr-un Json <br>
+                     si folosind API-ul putem afla vremea in acele orase. <br>
+                    Future: vremea pe mai multe zile + o poza de fundal pe orasul respectiv in functie de vreme. <br>
+                    Tehnologii folosite:HTML&CSS, JS si API
+
                 </p>
             </div>
             <div class="grid-box box-third">
                 <h3>Album photo</h3>
-                <a  href="/proiecte/3.album photo/index.html" target="_blank"> <img src="/media/laptop imageavif.avif"></a>
-                <p>De pus descriere :D
+                <a  href="/proiecte/3.album photo/index.html" target="_blank"> <img src="/media/photo_album_re_31c2.svg"></a>
+                <p>
+                    Aplicatie in LUCRU pentru fotografii. (Functionala) <br>
+                    Momentan pot fi vizualiate deja poze introdu-se din js <br>
+                    Future: storage si drop pentru poze noi direct din pagina <br>
+                    Tehnologii folosite:HTML, JS
                 </p>
             </div>
             <div class="grid-box box-third">
                 <h3>Quiz app</h3>
-                <a  href="/proiecte/4.quiz app/index.html" target="_blank"> <img src="/media/laptop imageavif.avif"></a>
-                <p>De pus descriere :D </p>
+                <a  href="/proiecte/4.quiz app/index.html" target="_blank"> <img src="/media/quiz.svg"></a>
+                <p>
+                    Aplicatie pentru diverse teste. <br>
+                    Intrebarile apar in ordine aleatorie. iar dupa fiecare raspuns <br> 
+                    se afiseaza daca raspunsul a fost corect sau nu <br>
+                    Tehnologii folosite:HTML&CSS si JS 
+                </p>
             </div><div class="grid-box box-third">
                 <h3>Recenzie de filme</h3>
-                <a  href="/proiecte/6.aplicatie de filme/index.html" target="_blank"> <img src="/media/laptop imageavif.avif"></a>
-                <p>De pus descriere :D</p>
+                <a  href="/proiecte/6.aplicatie de filme/index.html" target="_blank"> <img src="/media/video.svg"></a>
+                <p>
+                    Aplicatie unde se pot vedea recenziile la la filme inclusiv trailer <br>
+                    Tehnologii folosite:HTML&CSS, JS si API
+                </p>
             </div>
             <div class="grid-box box-third">
                 <h3>Ceas</h3>
-                <a  href="/proiecte/7.clock/index.html" target="_blank"> <img src="/media/laptop imageavif.avif"></a>
-                <p>De pus descriere :D</p>
+                <a  href="/proiecte/7.clock/index.html" target="_blank"> <img src="/media/clock.svg"></a>
+                <p>
+                    Un simplu ceas &#128516 &#128517 <br>
+                    Tehnologii folosite:HTML&CSS, JS 
+                </p>
             </div>
         </div>
     </section>
-    <section id="section-3" class="section-block lilla about-me">
+    <section id="section-3" class="section-block lilla about-me ">
         <h2> Despre mine </h2>
         <div class="about-me-inner-container">
-            <img src="assets/Eu.jpg" alt="Poza mea">
+            <img src="media/eU.jpg" alt="Poza mea">
             <div>
                 <h3>Buna eu sunt Narcis!</h3>
                 <p>Ceva despre mine </div>
