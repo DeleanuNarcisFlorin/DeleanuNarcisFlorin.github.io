@@ -16,9 +16,8 @@ html{
 
 .section-block{height: calc(100vh - 8rem); padding: 5rem;}
 .section-block.not-fullscreen {height: auto;}
-.section-block.grey{ background-color: gray; }
-.section-block.lilla{ background-color: mediumslateblue; }
-.section-block.lilla.about-me{background-color: rgb(5, 195, 106);} 
+.section-block.grey{ background: linear-gradient(135deg, #98a5a9, #697ab7 ); }
+.section-block.lilla{ background: linear-gradient(135deg, #697ab7, #98a5a9); height: auto; width: auto;}
     .section-block h1, .section-block h2 {display: block;margin-bottom:10rem;text-align: center; font-size: 4.8rem; font-weight: 600;  }
     .section-block h1, .section-block h2{ color: #fff; }
 
@@ -33,10 +32,10 @@ html{
 
 
 /* Sections*/
-
+#more {display: none;}
 /* Navigation*/
 
-header{position: fixed;top: 0; left: 0; width: 100%; display: flex ;justify-content:space-between;align-items: center; height: 8rem;padding: 0.75rem 5rem;z-index: 2;background-image: url(/media/Header\ Background.pnj);}
+header{position: fixed;top: 0; left: 0; width: 100%; display: flex ;justify-content:space-between;align-items: center; height: 8rem;padding: 0.75rem 5rem;z-index: 2;background-image: url(/media/Header\ Background-min.jpeg);}
     header + * {margin-top: 8rem;}
     .logo{display: inline-block;}
     .logo > img {width: 7rem; height: 7rem; border-radius: 50%;}
@@ -56,7 +55,7 @@ header{position: fixed;top: 0; left: 0; width: 100%; display: flex ;justify-cont
 
 
 /* Hero */
-.hero{display: flex;align-items: center; position: relative;padding: 0 5rem 20vh; background-image: url(media/fundal.jpg);background-position: center;background-repeat: no-repeat; background-size: cover; color: white;}
+.hero{display: flex;align-items: center; position: relative;padding: 0 5rem 20vh; background-image: url(media/fundal-min.jpeg);background-position: center;background-repeat: no-repeat; background-size: cover; color: white;}
     .hero::before { content: ""; position: absolute; top: 0; left: 0; width: 100%; height: 100%;  background-color: rgba(0, 0, 0, 0.75);}
     .hero  h1 { position: relative; z-index: 1;text-align: left;}
     .hero  p { position: relative; z-index: 1;font-size: 1.8rem; line-height: 1.3;}
@@ -72,20 +71,19 @@ header{position: fixed;top: 0; left: 0; width: 100%; display: flex ;justify-cont
 
 /* Pasiunile mele si proiectele mele*/
 .my-passions h1, .my-portofolio h1{ margin-bottom: 7.5rem;}
+.my-portofolio h2{padding-top: 5.5rem;}
 .my-passions-inner-container, .my-portofolio-inner-container {color: white;}
 .my-passions-inner-container h3, .my-portofolio-inner-container h3{font-size: 2.4rem; text-align: center; margin-bottom: 2.5rem;}
 .my-passions-inner-container p, .my-portofolio-inner-container p {font-size: 1.6rem;}
-.my-portofolio-inner-container img {width: 30rem; height: auto;}
 .passions {text-align:center ;margin: auto;display: block;}
-.img-my-passion{background-image: url(/media/passion.PNG);object-fit:scale-down; height: auto;width: auto;}
+.img-my-passion{object-fit:scale-down; height: auto;width: auto;}
 
 
 /* Pasiunile mele si proiectele mele*/
 
 /* background projects passion and contact */
-.projects{ position: relative;padding: 0 5rem 20vh; background-image: url(media/projects.png);background-position: center;background-repeat: no-repeat; background-size: cover; }
-.img-my-passion{ position: relative;padding: 0 5rem 20vh; background-image: url(media/passion.PNG);background-position: center;background-repeat: no-repeat; background-size: cover; }
-.fot-image {background: linear-gradient(135deg, #697ab7, #98a5a9); ;}
+.projects{ position: relative;padding: 0 15rem 20vh; background: linear-gradient(135deg, #697ab7, #98a5a9);}
+.fot-image {background: linear-gradient(135deg, #697ab7, #98a5a9);}
 /* background projects passion and contact */    
 
 /* Recomandari
@@ -106,7 +104,7 @@ Recomandari */
         .about-me-inner-container > img {width: 30rem; height: 30rem; border-radius: 50%; margin-right: 5rem;}
         .about-me-inner-container h3 { font-size: 3.2rem; margin-bottom: 3rem;}
         .about-me-inner-container p { font-size: 2rem;}
-        .about-me {background-image: url(/media/aboutme.jpg);object-fit:contain;background-repeat: no-repeat;}
+        .about-me {object-fit:fill;background-repeat: no-repeat;background-image: url(/media/aboutme-min.jpeg);background-size: auto;}
         
     @media (max-width:767px) {
         .about-me-inner-container {display: block; text-align: center;}
@@ -128,7 +126,7 @@ footer { font-size: 1.6rem; color: #fff;}
     .grid-box {float: left;margin: 0 2.5rem 4rem;}
     .box-full{width:calc(100% - 5rem);}
     .box-half{width:calc(50% - 5rem);}
-    .box-third{width: calc(33.33% - 5rem);}
+    .box-third{width: calc(33.33% - 5rem);overflow: hidden;height:250px;}
     .box-quarter{width:calc(25% - 5rem);}
 
 @media (max-width:767px){
@@ -145,3 +143,13 @@ footer { font-size: 1.6rem; color: #fff;}
     .box-quarter{width:calc(33.33% - 5rem);}
 }
 /* grid */
+
+/* button */
+
+.button {
+    text-align: center;
+    color: #f5ecec;
+    border-radius: 10px;
+    background:linear-gradient(rgb(37, 94, 240), rgb(28, 4, 238));
+}
+/* button */
